@@ -1,6 +1,8 @@
 class HomesController < ApplicationController
   def index
   end
-  def test
+  def timeline
+  end
+  def d3ShowReel
   end
 end

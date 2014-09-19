@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 20140917004600) do
     t.integer  "city_mpg"
     t.integer  "highway_mpg"
     t.integer  "annual_fuel_cost"
-    t.integer  "avg_gas_price"
+    t.float    "avg_gas_price"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -7,7 +7,7 @@ class CreateCars < ActiveRecord::Migration
       t.integer :city_mpg
       t.integer :highway_mpg
       t.integer :annual_fuel_cost
-      t.integer :avg_gas_price
+      t.float :avg_gas_price
 
       t.timestamps
     end
