@@ -1,5 +1,5 @@
 class ShowreelSerializer < ActiveModel::Serializer
-  attributes :model, :year, :highway_mpg
+  attributes :model, :year, :city_mpg
 
   def model
     object.model
@@ -9,7 +9,7 @@ class ShowreelSerializer < ActiveModel::Serializer
     object.year
   end
 
-  def highway_mpg
-    object.highway_mpg
+  def city_mpg
+    object.city_mpg
   end
 end

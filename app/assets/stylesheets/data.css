@@ -1,3 +1,44 @@
+/* FOR TIMELINE */
+
+#chart {
+  margin-left: -40px;
+  height: 506px;
+}
+
+text {
+  font: 10px sans-serif;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.label {
+  fill: #777;
+}
+
+.year.label {
+  font: 500 196px "Helvetica Neue";
+  fill: #ddd;
+}
+
+.year.label.active {
+  fill: #aaa;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+  cursor: ew-resize;
+}
+
+/* FOR SHOWREEL */
 
 svg {
   font-family: "Helvetica Neue", Helvetica;
@@ -7,6 +48,9 @@ svg {
   stroke: #000;
   stroke-width: 2px;
 }
+
+/* FOR LEGEND ON TIMELINE */
+
 .my-legend .legend-title {
   text-align: left;
   margin-bottom: 8px;
@@ -42,3 +86,11 @@ svg {
 .my-legend a {
   color: #777;
   }
+
+/* FOR HOMEPAGE */
+
+.image {
+  text-align: center;
+  height: 100px;
+}
+

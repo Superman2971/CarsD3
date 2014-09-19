@@ -1,19 +1,4 @@
-<h1>Comparison of Cars Highway MPG over time</h1>
-
-<div class='my-legend'>
-<div class='legend-title'>The Title or Explanation of your Map</div>
-<div class='legend-scale'>
-  <ul class='legend-labels'>
-    <li><span style='background:#F1EEF6;'></span>0 - 20%</li>
-    <li><span style='background:#BDC9E1;'></span>40%</li>
-    <li><span style='background:#74A9CF;'></span>60%</li>
-    <li><span style='background:#2B8CBE;'></span>80%</li>
-    <li><span style='background:#045A8D;'></span>100%</li>
-  </ul>
-</div>
-<div class='legend-source'>Source: <a href="#link to source">Name of source</a></div>
-</div>
-
+<h1>Mapping Cars City MPG Over Time</h1>
 
 <script>
 
@@ -41,7 +26,7 @@ var mpgs,
 var line = d3.svg.line()
     .interpolate("basis")
     .x(function(d) { return x(d.year); })
-    .y(function(d) { return y(d.highway_mpg); });
+    .y(function(d) { return y(d.city_mpg); });
 
 // A line generator, for the dark stroke.
 var axis = d3.svg.line()
@@ -53,7 +38,7 @@ var axis = d3.svg.line()
 var area = d3.svg.area()
     .interpolate("basis")
     .x(function(d) { return x(d.year); })
-    .y1(function(d) { return y(d.highway_mpg); });
+    .y1(function(d) { return y(d.city_mpg); });
 
 d3.csv("/assets/showreel.csv", function(data) {
   var parse = d3.time.format("%Y");
@@ -64,16 +49,16 @@ d3.csv("/assets/showreel.csv", function(data) {
       .entries(mpgs = data);
 
   // Parse years and numbers. We assume values are sorted by year.
-  // Also compute the maximum highway_mpg per model, needed for the y-domain.
+  // Also compute the maximum city_mpg per model, needed for the y-domain.
   models.forEach(function(s) {
-    s.values.forEach(function(d) { d.year = d.year; d.highway_mpg = +d.highway_mpg; });
-    s.maxhighway_mpg = d3.max(s.values, function(d) { return d.highway_mpg; });
-    s.sumhighway_mpg = d3.sum(s.values, function(d) { return d.highway_mpg; });
+    s.values.forEach(function(d) { d.year = d.year; d.city_mpg = +d.city_mpg; });
+    s.maxcity_mpg = d3.max(s.values, function(d) { return d.city_mpg; });
+    s.sumcity_mpg = d3.sum(s.values, function(d) { return d.city_mpg; });
   });
 
 
-  // Sort by maximum highway_mpg, descending.
-  models.sort(function(a, b) { return b.maxhighway_mpg - a.maxhighway_mpg; });
+  // Sort by maximum city_mpg, descending.
+  models.sort(function(a, b) { return b.maxcity_mpg - a.maxcity_mpg; });
 
   var g = svg.selectAll("g")
       .data(models)
@@ -120,14 +105,14 @@ function lines() {
   console.log(g);
     g.each(function(d) {
       var e = d3.select(this);
-      y.domain([0, d.maxhighway_mpg]);
+      y.domain([0, d.maxcity_mpg]);
 
       e.select("path")
           .attr("d", function(d) { return line(d.values.slice(0, k + 1)); });
 
       e.selectAll("circle, text")
           .data(function(d) { return [d.values[k], d.values[k]]; })
-          .attr("transform", function(d) { return "translate(" + x(d.year) + "," + y(d.highway_mpg) + ")"; });
+          .attr("transform", function(d) { return "translate(" + x(d.year) + "," + y(d.city_mpg) + ")"; });
     });
   }
 
@@ -171,7 +156,7 @@ function horizons() {
       .attr("dy", "0em");
 
   g.each(function(d) {
-    y.domain([0, d.maxhighway_mpg]);
+    y.domain([0, d.maxcity_mpg]);
 
     d3.select(this).selectAll(".area")
         .data(d3.range(3))
@@ -182,7 +167,7 @@ function horizons() {
         .style("fill", function(d, i) { return color(i); })
         .style("fill-opacity", 1e-6);
 
-    y.domain([0, d.maxhighway_mpg / 3]);
+    y.domain([0, d.maxcity_mpg / 3]);
 
     d3.select(this).selectAll(".line").transition()
         .duration(duration)
@@ -210,7 +195,7 @@ function areas() {
       .attr("d", function(d) { return axis(d.values); });
 
   g.each(function(d) {
-    y.domain([0, d.maxhighway_mpg]);
+    y.domain([0, d.maxcity_mpg]);
 
     d3.select(this).select(".line").transition()
         .duration(duration)
@@ -248,23 +233,23 @@ function stackedArea() {
   var stack = d3.layout.stack()
       .values(function(d) { return d.values; })
       .x(function(d) { return d.year; })
-      .y(function(d) { return d.highway_mpg; })
-      .out(function(d, y0, y) { d.highway_mpg0 = y0; })
+      .y(function(d) { return d.city_mpg; })
+      .out(function(d, y0, y) { d.city_mpg0 = y0; })
       .order("reverse");
   console.log(stack);
 
   stack(models);
 
   y
-      .domain([0, d3.max(models[0].values.map(function(d) { return d.highway_mpg + d.highway_mpg0; }))])
+      .domain([0, d3.max(models[0].values.map(function(d) { return d.city_mpg + d.city_mpg0; }))])
       .range([h, 0]);
 
   line
-      .y(function(d) { return y(d.highway_mpg0); });
+      .y(function(d) { return y(d.city_mpg0); });
 
   area
-      .y0(function(d) { return y(d.highway_mpg0); })
-      .y1(function(d) { return y(d.highway_mpg0 + d.highway_mpg); });
+      .y0(function(d) { return y(d.city_mpg0); })
+      .y1(function(d) { return y(d.city_mpg0 + d.city_mpg); });
 
   var t = svg.selectAll(".model").transition()
       .duration(duration)
@@ -279,7 +264,7 @@ function stackedArea() {
       .attr("d", function(d) { return line(d.values); });
 
   t.select("text")
-      .attr("transform", function(d) { d = d.values[d.values.length - 1]; return "translate(" + (w - 60) + "," + y(d.highway_mpg / 2 + d.highway_mpg0) + ")"; });
+      .attr("transform", function(d) { d = d.values[d.values.length - 1]; return "translate(" + (w - 60) + "," + y(d.city_mpg / 2 + d.city_mpg0) + ")"; });
 
   setTimeout(streamgraph, duration + delay);
 }
@@ -288,8 +273,8 @@ function streamgraph() {
   var stack = d3.layout.stack()
       .values(function(d) { return d.values; })
       .x(function(d) { return d.year; })
-      .y(function(d) { return d.highway_mpg; })
-      .out(function(d, y0, y) { d.highway_mpg0 = y0; })
+      .y(function(d) { return d.city_mpg; })
+      .out(function(d, y0, y) { d.city_mpg0 = y0; })
       .order("reverse")
       .offset("wiggle");
   console.log(stack);
@@ -297,7 +282,7 @@ function streamgraph() {
   stack(models);
 
   line
-      .y(function(d) { return y(d.highway_mpg0); });
+      .y(function(d) { return y(d.city_mpg0); });
 
   var t = svg.selectAll(".model").transition()
       .duration(duration);
@@ -310,7 +295,7 @@ function streamgraph() {
       .attr("d", function(d) { return line(d.values); });
 
   t.select("text")
-      .attr("transform", function(d) { d = d.values[d.values.length - 1]; return "translate(" + (w - 60) + "," + y(d.highway_mpg / 2 + d.highway_mpg0) + ")"; });
+      .attr("transform", function(d) { d = d.values[d.values.length - 1]; return "translate(" + (w - 60) + "," + y(d.city_mpg / 2 + d.city_mpg0) + ")"; });
 
   setTimeout(overlappingArea, duration + delay);
 }
@@ -320,21 +305,21 @@ function overlappingArea() {
   console.log(g);
 
   line
-      .y(function(d) { return y(d.highway_mpg0 + d.highway_mpg); });
+      .y(function(d) { return y(d.city_mpg0 + d.city_mpg); });
 
   g.select(".line")
       .attr("d", function(d) { return line(d.values); });
 
   y
-      .domain([0, d3.max(models.map(function(d) { return d.maxhighway_mpg; }))])
+      .domain([0, d3.max(models.map(function(d) { return d.maxcity_mpg; }))])
       .range([h, 0]);
 
   area
       .y0(h)
-      .y1(function(d) { return y(d.highway_mpg); });
+      .y1(function(d) { return y(d.city_mpg); });
 
   line
-      .y(function(d) { return y(d.highway_mpg); });
+      .y(function(d) { return y(d.city_mpg); });
 
   var t = g.transition()
       .duration(duration);
@@ -349,7 +334,7 @@ function overlappingArea() {
 
   t.select("text")
       .attr("dy", ".31em")
-      .attr("transform", function(d) { d = d.values[d.values.length - 1]; return "translate(" + (w - 60) + "," + y(d.highway_mpg) + ")"; });
+      .attr("transform", function(d) { d = d.values[d.values.length - 1]; return "translate(" + (w - 60) + "," + y(d.city_mpg) + ")"; });
 
   svg.append("line")
       .attr("class", "line")
@@ -393,9 +378,9 @@ function groupedBar() {
         .data(function(d) { return d.values; })
       .enter().append("rect")
         .attr("x", function(d) { return x(d.year) + x1(p.key); })
-        .attr("y", function(d) { return y(d.highway_mpg); })
+        .attr("y", function(d) { return y(d.city_mpg); })
         .attr("width", x1.rangeBand())
-        .attr("height", function(d) { return h - y(d.highway_mpg); })
+        .attr("height", function(d) { return h - y(d.city_mpg); })
         .style("fill", color(p.key))
         .style("fill-opacity", 1e-6)
       .transition()
@@ -412,8 +397,8 @@ function stackedBar() {
   var stack = d3.layout.stack()
       .values(function(d) { return d.values; })
       .x(function(d) { return d.year; })
-      .y(function(d) { return d.highway_mpg; })
-      .out(function(d, y0, y) { d.highway_mpg0 = y0; })
+      .y(function(d) { return d.city_mpg; })
+      .out(function(d, y0, y) { d.city_mpg0 = y0; })
       .order("reverse");
 
   var g = svg.selectAll(".model");
@@ -422,7 +407,7 @@ function stackedBar() {
   stack(models);
 
   y
-      .domain([0, d3.max(models[0].values.map(function(d) { return d.highway_mpg + d.highway_mpg0; }))])
+      .domain([0, d3.max(models[0].values.map(function(d) { return d.city_mpg + d.city_mpg0; }))])
       .range([h, 0]);
 
   var t = g.transition()
@@ -430,12 +415,12 @@ function stackedBar() {
 
   t.select("text")
       .delay(models[0].values.length * 10)
-      .attr("transform", function(d) { d = d.values[d.values.length - 1]; return "translate(" + (w - 60) + "," + y(d.highway_mpg / 2 + d.highway_mpg0) + ")"; });
+      .attr("transform", function(d) { d = d.values[d.values.length - 1]; return "translate(" + (w - 60) + "," + y(d.city_mpg / 2 + d.city_mpg0) + ")"; });
 
   t.selectAll("rect")
       .delay(function(d, i) { return i * 10; })
-      .attr("y", function(d) { return y(d.highway_mpg0 + d.highway_mpg); })
-      .attr("height", function(d) { return h - y(d.highway_mpg); })
+      .attr("y", function(d) { return y(d.city_mpg0 + d.city_mpg); })
+      .attr("height", function(d) { return h - y(d.city_mpg); })
       .each("end", function() {
         d3.select(this)
             .style("stroke", "#fff")
@@ -456,12 +441,12 @@ function transposeBar() {
       .rangeRoundBands([0, w], .2);
 
   y
-      .domain([0, d3.max(models.map(function(d) { return d3.sum(d.values.map(function(d) { return d.highway_mpg; })); }))]);
+      .domain([0, d3.max(models.map(function(d) { return d3.sum(d.values.map(function(d) { return d.city_mpg; })); }))]);
 
   var stack = d3.layout.stack()
       .x(function(d, i) { return i; })
-      .y(function(d) { return d.highway_mpg; })
-      .out(function(d, y0, y) { d.highway_mpg0 = y0; });
+      .y(function(d) { return d.city_mpg; })
+      .out(function(d, y0, y) { d.city_mpg0 = y0; });
 
   stack(d3.zip.apply(null, models.map(function(d) { return d.values; }))); // transpose!
 
@@ -473,8 +458,8 @@ function transposeBar() {
 
   t.selectAll("rect")
       .delay(function(d, i) { return i * 10; })
-      .attr("y", function(d) { return y(d.highway_mpg0 + d.highway_mpg) - 1; })
-      .attr("height", function(d) { return h - y(d.highway_mpg) + 1; })
+      .attr("y", function(d) { return y(d.city_mpg0 + d.city_mpg) - 1; })
+      .attr("height", function(d) { return h - y(d.city_mpg) + 1; })
       .attr("x", function(d) { return x(d.model); })
       .attr("width", x.rangeBand())
       .style("stroke-opacity", 1e-6);
@@ -499,7 +484,7 @@ function donut() {
   g.selectAll("rect").remove();
 
   var pie = d3.layout.pie()
-      .value(function(d) { return d.sumhighway_mpg; });
+      .value(function(d) { return d.sumcity_mpg; });
 
   var arc = d3.svg.arc();
 
@@ -524,7 +509,7 @@ function donut() {
     var path = d3.select(this),
         text = d3.select(this.parentNode.appendChild(this.previousSibling)),
         x0 = x(d.data.key),
-        y0 = h - y(d.data.sumhighway_mpg);
+        y0 = h - y(d.data.sumcity_mpg);
 
     return function(t) {
       var r = h / 2 / Math.min(1, t + 1e-3),

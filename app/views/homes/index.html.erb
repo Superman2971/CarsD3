@@ -1,3 +1,16 @@
-<h1>HOME</h1>
+<h1>Automobiles Throughout History</h1>
 
-EXPLAIN THIS SHIIIIT
+<div class="well">
+  <p>Using data provided by <a href="http://www.fueleconomy.gov/feg/ws/index.shtml">www.fueleconomy.com</a> I was able to collect all of the information from 1984 to present on manufacturers, car models, city mpg, highway mpg, average annual fuel costs, and much more.</p>
+  <p>With the information collected I've decided to showcase the data comparisons using a few D3 graphs that nicely display the data.</p>
+</div>
+<div class="row center-block">
+  <div class="col-sm-6">
+    <h5>Click to view interactive information about City MPG changes over the course of 1984 to 2014</h5>
+    <div><%= link_to image_tag('showreel.jpg', :class=>"image"), "/homes/showreel" %></div>
+  </div>
+  <div class="col-sm-6">
+    <h5>Click to view interactive comparison of Annual Fuel Costs vs. Highway MPG from different car manufacturers</h5> 
+    <div><%= link_to image_tag('timeline.jpg', :class=>"image"), "/homes/timeline" %></div>
+  </div>
+</div>
