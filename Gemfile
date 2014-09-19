@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Add Capybara for BDD
+gem 'capybara'
 # serializer for organizing my json
 gem 'active_model_serializers'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
