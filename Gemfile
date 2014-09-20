@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-# Add Capybara for BDD
-gem 'capybara'
 # serializer for organizing my json
 gem 'active_model_serializers'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -40,4 +38,12 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Add Capybara for BDD
+group :development, :test do
+  gem "rspec-rails", '< 3.0.0'
+  gem "capybara"
+  gem "database_cleaner" # must have with capybara
+  gem 'selenium-webdriver', '~> 2.43.0' # must have with capybara --> automates the browser
+end
 
