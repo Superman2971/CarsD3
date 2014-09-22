@@ -1,0 +1,1676 @@
+[
+  {
+    "year" => "1984",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "23",
+    "highway_mpg" => "29",
+    "annual_fuel_cost" => "2100",
+    "avg_gas_price" => "1.21"
+  },
+  {
+    "year" => "1985",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "22",
+    "highway_mpg" => "27",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "1.2"
+  },
+  {
+    "year" => "1986",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "21",
+    "highway_mpg" => "27",
+    "annual_fuel_cost" => "2250",
+    "avg_gas_price" => "0.93"
+  },
+  {
+    "year" => "1987",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "21",
+    "highway_mpg" => "27",
+    "annual_fuel_cost" => "2250",
+    "avg_gas_price" => "0.95"
+  },
+  {
+    "year" => "1988",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "21",
+    "highway_mpg" => "28",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "1.08"
+  },
+  {
+    "year" => "1989",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "21",
+    "highway_mpg" => "27",
+    "annual_fuel_cost" => "2250",
+    "avg_gas_price" => "1.12"
+  },
+  {
+    "year" => "1990",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "19",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2350",
+    "avg_gas_price" => "1.16"
+  },
+  {
+    "year" => "1991",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "19",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2350",
+    "avg_gas_price" => "1.14"
+  },
+  {
+    "year" => "1992",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "19",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2350",
+    "avg_gas_price" => "1.087"
+  },
+  {
+    "year" => "1993",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "19",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2350",
+    "avg_gas_price" => "1.067"
+  },
+  {
+    "year" => "1994",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "20",
+    "highway_mpg" => "27",
+    "annual_fuel_cost" => "2350",
+    "avg_gas_price" => "1.075"
+  },
+  {
+    "year" => "1995",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "21",
+    "highway_mpg" => "27",
+    "annual_fuel_cost" => "2250",
+    "avg_gas_price" => "1.111"
+  },
+  {
+    "year" => "1996",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "20",
+    "highway_mpg" => "28",
+    "annual_fuel_cost" => "2250",
+    "avg_gas_price" => "1.199"
+  },
+  {
+    "year" => "1997",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "21",
+    "highway_mpg" => "28",
+    "annual_fuel_cost" => "2250",
+    "avg_gas_price" => "1.199"
+  },
+  {
+    "year" => "1998",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "19",
+    "highway_mpg" => "27",
+    "annual_fuel_cost" => "2350",
+    "avg_gas_price" => "1.03"
+  },
+  {
+    "year" => "1999",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "20",
+    "highway_mpg" => "27",
+    "annual_fuel_cost" => "2350",
+    "avg_gas_price" => "1.136"
+  },
+  {
+    "year" => "2000",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "20",
+    "highway_mpg" => "28",
+    "annual_fuel_cost" => "2250",
+    "avg_gas_price" => "1.484"
+  },
+  {
+    "year" => "2001",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "20",
+    "highway_mpg" => "27",
+    "annual_fuel_cost" => "2250",
+    "avg_gas_price" => "1.42"
+  },
+  {
+    "year" => "2002",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "20",
+    "highway_mpg" => "28",
+    "annual_fuel_cost" => "2250",
+    "avg_gas_price" => "1.345"
+  },
+  {
+    "year" => "2003",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "21",
+    "highway_mpg" => "31",
+    "annual_fuel_cost" => "2100",
+    "avg_gas_price" => "1.561"
+  },
+  {
+    "year" => "2004",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "21",
+    "highway_mpg" => "31",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "1.852"
+  },
+  {
+    "year" => "2005",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "21",
+    "highway_mpg" => "31",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "2.27"
+  },
+  {
+    "year" => "2006",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "21",
+    "highway_mpg" => "31",
+    "annual_fuel_cost" => "2100",
+    "avg_gas_price" => "2.572"
+  },
+  {
+    "year" => "2007",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "21",
+    "highway_mpg" => "31",
+    "annual_fuel_cost" => "2100",
+    "avg_gas_price" => "2.796"
+  },
+  {
+    "year" => "2008",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "21",
+    "highway_mpg" => "31",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "3.246"
+  },
+  {
+    "year" => "2009",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "22",
+    "highway_mpg" => "31",
+    "annual_fuel_cost" => "2100",
+    "avg_gas_price" => "2.353"
+  },
+  {
+    "year" => "2010",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "21",
+    "highway_mpg" => "31",
+    "annual_fuel_cost" => "2100",
+    "avg_gas_price" => "2.782"
+  },
+  {
+    "year" => "2011",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "23",
+    "highway_mpg" => "33",
+    "annual_fuel_cost" => "1900",
+    "avg_gas_price" => "3.521"
+  },
+  {
+    "year" => "2012",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "23",
+    "highway_mpg" => "34",
+    "annual_fuel_cost" => "1900",
+    "avg_gas_price" => "3.618"
+  },
+  {
+    "year" => "2013",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "26",
+    "highway_mpg" => "35",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "3.505"
+  },
+  {
+    "year" => "2014",
+    "make" => "Honda",
+    "model" => "Accord",
+    "city_mpg" => "26",
+    "highway_mpg" => "34",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "3.48"
+  },
+  {
+    "year" => "1984",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "29",
+    "highway_mpg" => "37",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "1.21"
+  },
+  {
+    "year" => "1985",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "26",
+    "highway_mpg" => "30",
+    "annual_fuel_cost" => "2100",
+    "avg_gas_price" => "1.2"
+  },
+  {
+    "year" => "1986",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "26",
+    "highway_mpg" => "33",
+    "annual_fuel_cost" => "1950",
+    "avg_gas_price" => "0.93"
+  },
+  {
+    "year" => "1987",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "22",
+    "highway_mpg" => "28",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "0.95"
+  },
+  {
+    "year" => "1988",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "22",
+    "highway_mpg" => "27",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "1.08"
+  },
+  {
+    "year" => "1989",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "19",
+    "highway_mpg" => "23",
+    "annual_fuel_cost" => "2450",
+    "avg_gas_price" => "1.12"
+  },
+  {
+    "year" => "1990",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "22",
+    "highway_mpg" => "28",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "1.16"
+  },
+  {
+    "year" => "1991",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "21",
+    "highway_mpg" => "28",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "1.14"
+  },
+  {
+    "year" => "1992",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "18",
+    "highway_mpg" => "25",
+    "annual_fuel_cost" => "2450",
+    "avg_gas_price" => "1.087"
+  },
+  {
+    "year" => "1993",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "18",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2450",
+    "avg_gas_price" => "1.067"
+  },
+  {
+    "year" => "1994",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "18",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2450",
+    "avg_gas_price" => "1.075"
+  },
+  {
+    "year" => "1995",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "19",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2450",
+    "avg_gas_price" => "1.111"
+  },
+  {
+    "year" => "1996",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "18",
+    "highway_mpg" => "25",
+    "annual_fuel_cost" => "2450",
+    "avg_gas_price" => "1.199"
+  },
+  {
+    "year" => "1997",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "20",
+    "highway_mpg" => "28",
+    "annual_fuel_cost" => "2250",
+    "avg_gas_price" => "1.199"
+  },
+  {
+    "year" => "1998",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "20",
+    "highway_mpg" => "28",
+    "annual_fuel_cost" => "2250",
+    "avg_gas_price" => "1.03"
+  },
+  {
+    "year" => "1999",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "20",
+    "highway_mpg" => "28",
+    "annual_fuel_cost" => "2250",
+    "avg_gas_price" => "1.136"
+  },
+  {
+    "year" => "2000",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "20",
+    "highway_mpg" => "28",
+    "annual_fuel_cost" => "2250",
+    "avg_gas_price" => "1.484"
+  },
+  {
+    "year" => "2001",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "20",
+    "highway_mpg" => "29",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "1.42"
+  },
+  {
+    "year" => "2002",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "21",
+    "highway_mpg" => "29",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "1.345"
+  },
+  {
+    "year" => "2003",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "21",
+    "highway_mpg" => "29",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "1.561"
+  },
+  {
+    "year" => "2004",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "20",
+    "highway_mpg" => "29",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "1.852"
+  },
+  {
+    "year" => "2005",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "21",
+    "highway_mpg" => "31",
+    "annual_fuel_cost" => "2100",
+    "avg_gas_price" => "2.27"
+  },
+  {
+    "year" => "2006",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "21",
+    "highway_mpg" => "31",
+    "annual_fuel_cost" => "2100",
+    "avg_gas_price" => "2.572"
+  },
+  {
+    "year" => "2007",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "21",
+    "highway_mpg" => "30",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "2.796"
+  },
+  {
+    "year" => "2008",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "21",
+    "highway_mpg" => "31",
+    "annual_fuel_cost" => "2100",
+    "avg_gas_price" => "3.246"
+  },
+  {
+    "year" => "2009",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "19",
+    "highway_mpg" => "28",
+    "annual_fuel_cost" => "2250",
+    "avg_gas_price" => "2.353"
+  },
+  {
+    "year" => "2010",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "22",
+    "highway_mpg" => "33",
+    "annual_fuel_cost" => "2000",
+    "avg_gas_price" => "2.782"
+  },
+  {
+    "year" => "2011",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "22",
+    "highway_mpg" => "33",
+    "annual_fuel_cost" => "2000",
+    "avg_gas_price" => "3.521"
+  },
+  {
+    "year" => "2012",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "25",
+    "highway_mpg" => "35",
+    "annual_fuel_cost" => "1850",
+    "avg_gas_price" => "3.618"
+  },
+  {
+    "year" => "2013",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "25",
+    "highway_mpg" => "35",
+    "annual_fuel_cost" => "1850",
+    "avg_gas_price" => "3.505"
+  },
+  {
+    "year" => "2014",
+    "make" => "Toyota",
+    "model" => "Camry",
+    "city_mpg" => "25",
+    "highway_mpg" => "35",
+    "annual_fuel_cost" => "1850",
+    "avg_gas_price" => "3.48"
+  },
+  {
+    "year" => "1984",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "32",
+    "highway_mpg" => "39",
+    "annual_fuel_cost" => "1500",
+    "avg_gas_price" => "1.21"
+  },
+  {
+    "year" => "1985",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "25",
+    "highway_mpg" => "29",
+    "annual_fuel_cost" => "1900",
+    "avg_gas_price" => "1.2"
+  },
+  {
+    "year" => "1986",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "31",
+    "highway_mpg" => "39",
+    "annual_fuel_cost" => "1550",
+    "avg_gas_price" => "0.93"
+  },
+  {
+    "year" => "1987",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "31",
+    "highway_mpg" => "39",
+    "annual_fuel_cost" => "1550",
+    "avg_gas_price" => "0.95"
+  },
+  {
+    "year" => "1988",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "25",
+    "highway_mpg" => "32",
+    "annual_fuel_cost" => "1850",
+    "avg_gas_price" => "1.08"
+  },
+  {
+    "year" => "1989",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "23",
+    "highway_mpg" => "29",
+    "annual_fuel_cost" => "2000",
+    "avg_gas_price" => "1.12"
+  },
+  {
+    "year" => "1990",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "24",
+    "highway_mpg" => "30",
+    "annual_fuel_cost" => "2000",
+    "avg_gas_price" => "1.16"
+  },
+  {
+    "year" => "1991",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "24",
+    "highway_mpg" => "30",
+    "annual_fuel_cost" => "2000",
+    "avg_gas_price" => "1.14"
+  },
+  {
+    "year" => "1992",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "26",
+    "highway_mpg" => "33",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "1.087"
+  },
+  {
+    "year" => "1993",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "26",
+    "highway_mpg" => "35",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "1.067"
+  },
+  {
+    "year" => "1994",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "25",
+    "highway_mpg" => "33",
+    "annual_fuel_cost" => "1850",
+    "avg_gas_price" => "1.075"
+  },
+  {
+    "year" => "1995",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "25",
+    "highway_mpg" => "33",
+    "annual_fuel_cost" => "1850",
+    "avg_gas_price" => "1.111"
+  },
+  {
+    "year" => "1996",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "25",
+    "highway_mpg" => "33",
+    "annual_fuel_cost" => "1850",
+    "avg_gas_price" => "1.199"
+  },
+  {
+    "year" => "1997",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "29",
+    "highway_mpg" => "35",
+    "annual_fuel_cost" => "1650",
+    "avg_gas_price" => "1.199"
+  },
+  {
+    "year" => "1998",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "25",
+    "highway_mpg" => "33",
+    "annual_fuel_cost" => "1850",
+    "avg_gas_price" => "1.03"
+  },
+  {
+    "year" => "1999",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "24",
+    "highway_mpg" => "32",
+    "annual_fuel_cost" => "1900",
+    "avg_gas_price" => "1.136"
+  },
+  {
+    "year" => "2000",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "24",
+    "highway_mpg" => "32",
+    "annual_fuel_cost" => "1900",
+    "avg_gas_price" => "1.484"
+  },
+  {
+    "year" => "2001",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "26",
+    "highway_mpg" => "34",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "1.42"
+  },
+  {
+    "year" => "2002",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "26",
+    "highway_mpg" => "35",
+    "annual_fuel_cost" => "1750",
+    "avg_gas_price" => "1.345"
+  },
+  {
+    "year" => "2003",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "29",
+    "highway_mpg" => "36",
+    "annual_fuel_cost" => "1600",
+    "avg_gas_price" => "1.561"
+  },
+  {
+    "year" => "2004",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "29",
+    "highway_mpg" => "36",
+    "annual_fuel_cost" => "1600",
+    "avg_gas_price" => "1.852"
+  },
+  {
+    "year" => "2005",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "29",
+    "highway_mpg" => "36",
+    "annual_fuel_cost" => "1600",
+    "avg_gas_price" => "2.27"
+  },
+  {
+    "year" => "2006",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "26",
+    "highway_mpg" => "36",
+    "annual_fuel_cost" => "1750",
+    "avg_gas_price" => "2.572"
+  },
+  {
+    "year" => "2007",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "25",
+    "highway_mpg" => "36",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "2.796"
+  },
+  {
+    "year" => "2008",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "25",
+    "highway_mpg" => "36",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "3.246"
+  },
+  {
+    "year" => "2009",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "26",
+    "highway_mpg" => "34",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "2.353"
+  },
+  {
+    "year" => "2010",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "25",
+    "highway_mpg" => "36",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "2.782"
+  },
+  {
+    "year" => "2011",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "26",
+    "highway_mpg" => "34",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "3.521"
+  },
+  {
+    "year" => "2012",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "28",
+    "highway_mpg" => "39",
+    "annual_fuel_cost" => "1600",
+    "avg_gas_price" => "3.618"
+  },
+  {
+    "year" => "2013",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "22",
+    "highway_mpg" => "31",
+    "annual_fuel_cost" => "2300",
+    "avg_gas_price" => "3.505"
+  },
+  {
+    "year" => "2014",
+    "make" => "Honda",
+    "model" => "Civic",
+    "city_mpg" => "30",
+    "highway_mpg" => "39",
+    "annual_fuel_cost" => "1550",
+    "avg_gas_price" => "3.48"
+  },
+  {
+    "year" => "1984",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "25",
+    "highway_mpg" => "31",
+    "annual_fuel_cost" => "1900",
+    "avg_gas_price" => "1.21"
+  },
+  {
+    "year" => "1985",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "24",
+    "highway_mpg" => "29",
+    "annual_fuel_cost" => "2000",
+    "avg_gas_price" => "1.2"
+  },
+  {
+    "year" => "1986",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "24",
+    "highway_mpg" => "30",
+    "annual_fuel_cost" => "2000",
+    "avg_gas_price" => "0.93"
+  },
+  {
+    "year" => "1987",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "24",
+    "highway_mpg" => "29",
+    "annual_fuel_cost" => "2000",
+    "avg_gas_price" => "0.95"
+  },
+  {
+    "year" => "1988",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "23",
+    "highway_mpg" => "28",
+    "annual_fuel_cost" => "2100",
+    "avg_gas_price" => "1.08"
+  },
+  {
+    "year" => "1989",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "23",
+    "highway_mpg" => "28",
+    "annual_fuel_cost" => "2100",
+    "avg_gas_price" => "1.12"
+  },
+  {
+    "year" => "1990",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "23",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "1.16"
+  },
+  {
+    "year" => "1991",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "23",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "1.14"
+  },
+  {
+    "year" => "1992",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "23",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "1.087"
+  },
+  {
+    "year" => "1993",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "23",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "1.067"
+  },
+  {
+    "year" => "1994",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "23",
+    "highway_mpg" => "27",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "1.075"
+  },
+  {
+    "year" => "1995",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "23",
+    "highway_mpg" => "27",
+    "annual_fuel_cost" => "2100",
+    "avg_gas_price" => "1.111"
+  },
+  {
+    "year" => "1996",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "23",
+    "highway_mpg" => "27",
+    "annual_fuel_cost" => "2100",
+    "avg_gas_price" => "1.199"
+  },
+  {
+    "year" => "1997",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "22",
+    "highway_mpg" => "27",
+    "annual_fuel_cost" => "2150",
+    "avg_gas_price" => "1.199"
+  },
+  {
+    "year" => "1998",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "24",
+    "highway_mpg" => "30",
+    "annual_fuel_cost" => "2000",
+    "avg_gas_price" => "1.03"
+  },
+  {
+    "year" => "1999",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "24",
+    "highway_mpg" => "30",
+    "annual_fuel_cost" => "2000",
+    "avg_gas_price" => "1.136"
+  },
+  {
+    "year" => "2000",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "24",
+    "highway_mpg" => "29",
+    "annual_fuel_cost" => "2000",
+    "avg_gas_price" => "1.484"
+  },
+  {
+    "year" => "2001",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "25",
+    "highway_mpg" => "30",
+    "annual_fuel_cost" => "1900",
+    "avg_gas_price" => "1.42"
+  },
+  {
+    "year" => "2002",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "25",
+    "highway_mpg" => "30",
+    "annual_fuel_cost" => "1900",
+    "avg_gas_price" => "1.345"
+  },
+  {
+    "year" => "2003",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "25",
+    "highway_mpg" => "34",
+    "annual_fuel_cost" => "1850",
+    "avg_gas_price" => "1.561"
+  },
+  {
+    "year" => "2004",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "25",
+    "highway_mpg" => "34",
+    "annual_fuel_cost" => "1850",
+    "avg_gas_price" => "1.852"
+  },
+  {
+    "year" => "2005",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "26",
+    "highway_mpg" => "35",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "2.27"
+  },
+  {
+    "year" => "2006",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "26",
+    "highway_mpg" => "35",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "2.572"
+  },
+  {
+    "year" => "2007",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "26",
+    "highway_mpg" => "35",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "2.796"
+  },
+  {
+    "year" => "2008",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "26",
+    "highway_mpg" => "35",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "3.246"
+  },
+  {
+    "year" => "2009",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "22",
+    "highway_mpg" => "30",
+    "annual_fuel_cost" => "2100",
+    "avg_gas_price" => "2.353"
+  },
+  {
+    "year" => "2010",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "26",
+    "highway_mpg" => "34",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "2.782"
+  },
+  {
+    "year" => "2011",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "26",
+    "highway_mpg" => "34",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "3.521"
+  },
+  {
+    "year" => "2012",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "26",
+    "highway_mpg" => "34",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "3.618"
+  },
+  {
+    "year" => "2013",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "26",
+    "highway_mpg" => "34",
+    "annual_fuel_cost" => "1800",
+    "avg_gas_price" => "3.505"
+  },
+  {
+    "year" => "2014",
+    "make" => "Toyota",
+    "model" => "Corolla",
+    "city_mpg" => "27",
+    "highway_mpg" => "36",
+    "annual_fuel_cost" => "1650",
+    "avg_gas_price" => "3.48"
+  },
+  {
+    "year" => "1984",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "13",
+    "highway_mpg" => "15",
+    "annual_fuel_cost" => "3700",
+    "avg_gas_price" => "1.21"
+  },
+  {
+    "year" => "1985",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "14",
+    "highway_mpg" => "18",
+    "annual_fuel_cost" => "3250",
+    "avg_gas_price" => "1.2"
+  },
+  {
+    "year" => "1986",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "14",
+    "highway_mpg" => "17",
+    "annual_fuel_cost" => "3450",
+    "avg_gas_price" => "0.93"
+  },
+  {
+    "year" => "1987",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "12",
+    "highway_mpg" => "13",
+    "annual_fuel_cost" => "4350",
+    "avg_gas_price" => "0.95"
+  },
+  {
+    "year" => "1988",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "15",
+    "highway_mpg" => "17",
+    "annual_fuel_cost" => "3450",
+    "avg_gas_price" => "1.08"
+  },
+  {
+    "year" => "1989",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "13",
+    "highway_mpg" => "15",
+    "annual_fuel_cost" => "3700",
+    "avg_gas_price" => "1.12"
+  },
+  {
+    "year" => "1990",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "15",
+    "highway_mpg" => "17",
+    "annual_fuel_cost" => "3450",
+    "avg_gas_price" => "1.16"
+  },
+  {
+    "year" => "1991",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "14",
+    "highway_mpg" => "19",
+    "annual_fuel_cost" => "3250",
+    "avg_gas_price" => "1.14"
+  },
+  {
+    "year" => "1992",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "14",
+    "highway_mpg" => "17",
+    "annual_fuel_cost" => "3450",
+    "avg_gas_price" => "1.087"
+  },
+  {
+    "year" => "1993",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "14",
+    "highway_mpg" => "18",
+    "annual_fuel_cost" => "3450",
+    "avg_gas_price" => "1.067"
+  },
+  {
+    "year" => "1994",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "14",
+    "highway_mpg" => "18",
+    "annual_fuel_cost" => "3450",
+    "avg_gas_price" => "1.075"
+  },
+  {
+    "year" => "1995",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "14",
+    "highway_mpg" => "18",
+    "annual_fuel_cost" => "3450",
+    "avg_gas_price" => "1.111"
+  },
+  {
+    "year" => "1996",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "12",
+    "highway_mpg" => "17",
+    "annual_fuel_cost" => "3700",
+    "avg_gas_price" => "1.199"
+  },
+  {
+    "year" => "1997",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "15",
+    "highway_mpg" => "20",
+    "annual_fuel_cost" => "3050",
+    "avg_gas_price" => "1.199"
+  },
+  {
+    "year" => "1998",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "15",
+    "highway_mpg" => "19",
+    "annual_fuel_cost" => "3250",
+    "avg_gas_price" => "1.03"
+  },
+  {
+    "year" => "1999",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "14",
+    "highway_mpg" => "18",
+    "annual_fuel_cost" => "3250",
+    "avg_gas_price" => "1.136"
+  },
+  {
+    "year" => "2000",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "14",
+    "highway_mpg" => "19",
+    "annual_fuel_cost" => "3250",
+    "avg_gas_price" => "1.484"
+  },
+  {
+    "year" => "2001",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "14",
+    "highway_mpg" => "19",
+    "annual_fuel_cost" => "3250",
+    "avg_gas_price" => "1.42"
+  },
+  {
+    "year" => "2002",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "15",
+    "highway_mpg" => "19",
+    "annual_fuel_cost" => "3050",
+    "avg_gas_price" => "1.345"
+  },
+  {
+    "year" => "2003",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "14",
+    "highway_mpg" => "19",
+    "annual_fuel_cost" => "3250",
+    "avg_gas_price" => "1.561"
+  },
+  {
+    "year" => "2004",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "14",
+    "highway_mpg" => "18",
+    "annual_fuel_cost" => "3250",
+    "avg_gas_price" => "1.852"
+  },
+  {
+    "year" => "2005",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "14",
+    "highway_mpg" => "18",
+    "annual_fuel_cost" => "3450",
+    "avg_gas_price" => "2.27"
+  },
+  {
+    "year" => "2006",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "14",
+    "highway_mpg" => "19",
+    "annual_fuel_cost" => "3250",
+    "avg_gas_price" => "2.572"
+  },
+  {
+    "year" => "2007",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "14",
+    "highway_mpg" => "19",
+    "annual_fuel_cost" => "3250",
+    "avg_gas_price" => "2.796"
+  },
+  {
+    "year" => "2008",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "14",
+    "highway_mpg" => "19",
+    "annual_fuel_cost" => "3250",
+    "avg_gas_price" => "3.246"
+  },
+  {
+    "year" => "2009",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "14",
+    "highway_mpg" => "19",
+    "annual_fuel_cost" => "3250",
+    "avg_gas_price" => "2.353"
+  },
+  {
+    "year" => "2010",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "15",
+    "highway_mpg" => "21",
+    "annual_fuel_cost" => "3050",
+    "avg_gas_price" => "2.782"
+  },
+  {
+    "year" => "2011",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "13",
+    "highway_mpg" => "18",
+    "annual_fuel_cost" => "3700",
+    "avg_gas_price" => "3.521"
+  },
+  {
+    "year" => "2012",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "13",
+    "highway_mpg" => "18",
+    "annual_fuel_cost" => "3700",
+    "avg_gas_price" => "3.618"
+  },
+  {
+    "year" => "2013",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "13",
+    "highway_mpg" => "18",
+    "annual_fuel_cost" => "3450",
+    "avg_gas_price" => "3.505"
+  },
+  {
+    "year" => "2014",
+    "make" => "Ford",
+    "model" => "F150 Pickup 2WD",
+    "city_mpg" => "16",
+    "highway_mpg" => "22",
+    "annual_fuel_cost" => "2900",
+    "avg_gas_price" => "3.48"
+  },
+  {
+    "year" => "1984",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "18",
+    "highway_mpg" => "22",
+    "annual_fuel_cost" => "2600",
+    "avg_gas_price" => "1.21"
+  },
+  {
+    "year" => "1985",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "18",
+    "highway_mpg" => "22",
+    "annual_fuel_cost" => "2600",
+    "avg_gas_price" => "1.2"
+  },
+  {
+    "year" => "1986",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "18",
+    "highway_mpg" => "23",
+    "annual_fuel_cost" => "2600",
+    "avg_gas_price" => "0.93"
+  },
+  {
+    "year" => "1987",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "19",
+    "highway_mpg" => "24",
+    "annual_fuel_cost" => "2450",
+    "avg_gas_price" => "0.95"
+  },
+  {
+    "year" => "1988",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "19",
+    "highway_mpg" => "25",
+    "annual_fuel_cost" => "2450",
+    "avg_gas_price" => "1.08"
+  },
+  {
+    "year" => "1989",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "18",
+    "highway_mpg" => "24",
+    "annual_fuel_cost" => "2450",
+    "avg_gas_price" => "1.12"
+  },
+  {
+    "year" => "1990",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "18",
+    "highway_mpg" => "24",
+    "annual_fuel_cost" => "2450",
+    "avg_gas_price" => "1.16"
+  },
+  {
+    "year" => "1991",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "19",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2450",
+    "avg_gas_price" => "1.14"
+  },
+  {
+    "year" => "1992",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "19",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2450",
+    "avg_gas_price" => "1.087"
+  },
+  {
+    "year" => "1993",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "19",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2350",
+    "avg_gas_price" => "1.067"
+  },
+  {
+    "year" => "1994",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "17",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2600",
+    "avg_gas_price" => "1.075"
+  },
+  {
+    "year" => "1995",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "17",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2600",
+    "avg_gas_price" => "1.111"
+  },
+  {
+    "year" => "1996",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "18",
+    "highway_mpg" => "27",
+    "annual_fuel_cost" => "2450",
+    "avg_gas_price" => "1.199"
+  },
+  {
+    "year" => "1997",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "18",
+    "highway_mpg" => "27",
+    "annual_fuel_cost" => "2450",
+    "avg_gas_price" => "1.199"
+  },
+  {
+    "year" => "1998",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "17",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2600",
+    "avg_gas_price" => "1.03"
+  },
+  {
+    "year" => "1999",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "17",
+    "highway_mpg" => "25",
+    "annual_fuel_cost" => "2600",
+    "avg_gas_price" => "1.136"
+  },
+  {
+    "year" => "2000",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "18",
+    "highway_mpg" => "25",
+    "annual_fuel_cost" => "2600",
+    "avg_gas_price" => "1.484"
+  },
+  {
+    "year" => "2001",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "17",
+    "highway_mpg" => "25",
+    "annual_fuel_cost" => "2600",
+    "avg_gas_price" => "1.42"
+  },
+  {
+    "year" => "2002",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "17",
+    "highway_mpg" => "25",
+    "annual_fuel_cost" => "2600",
+    "avg_gas_price" => "1.345"
+  },
+  {
+    "year" => "2003",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "17",
+    "highway_mpg" => "25",
+    "annual_fuel_cost" => "2600",
+    "avg_gas_price" => "1.561"
+  },
+  {
+    "year" => "2004",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "17",
+    "highway_mpg" => "25",
+    "annual_fuel_cost" => "2600",
+    "avg_gas_price" => "1.852"
+  },
+  {
+    "year" => "2005",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "17",
+    "highway_mpg" => "23",
+    "annual_fuel_cost" => "2750",
+    "avg_gas_price" => "2.27"
+  },
+  {
+    "year" => "2006",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "17",
+    "highway_mpg" => "23",
+    "annual_fuel_cost" => "2750",
+    "avg_gas_price" => "2.572"
+  },
+  {
+    "year" => "2007",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "16",
+    "highway_mpg" => "24",
+    "annual_fuel_cost" => "2750",
+    "avg_gas_price" => "2.796"
+  },
+  {
+    "year" => "2008",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "16",
+    "highway_mpg" => "24",
+    "annual_fuel_cost" => "2750",
+    "avg_gas_price" => "3.246"
+  },
+  {
+    "year" => "2009",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "17",
+    "highway_mpg" => "26",
+    "annual_fuel_cost" => "2600",
+    "avg_gas_price" => "2.353"
+  },
+  {
+    "year" => "2010",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "16",
+    "highway_mpg" => "24",
+    "annual_fuel_cost" => "2750",
+    "avg_gas_price" => "2.782"
+  },
+  {
+    "year" => "2011",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "15",
+    "highway_mpg" => "23",
+    "annual_fuel_cost" => "3350",
+    "avg_gas_price" => "3.521"
+  },
+  {
+    "year" => "2012",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "19",
+    "highway_mpg" => "31",
+    "annual_fuel_cost" => "2250",
+    "avg_gas_price" => "3.618"
+  },
+  {
+    "year" => "2013",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "19",
+    "highway_mpg" => "31",
+    "annual_fuel_cost" => "2250",
+    "avg_gas_price" => "3.505"
+  },
+  {
+    "year" => "2014",
+    "make" => "Ford",
+    "model" => "Mustang",
+    "city_mpg" => "19",
+    "highway_mpg" => "29",
+    "annual_fuel_cost" => "2350",
+    "avg_gas_price" => "3.48"
+  }
+]
